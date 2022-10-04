@@ -1,63 +1,26 @@
 {
-  "name": "Auto-Forward-Bot",
-  "description": "Telegram's Best Smart Plugin File Forward Bot",
-  "logo": "https://telegra.ph/file/8b8419bb855959c143875.jpg",
-  "keywords": [
-    "telegram",
-    "best",
-    "file",
-    "forward",
-    "bot"
-  ],
-  "success_url": "https://t.me/DForDarkAngel",
-  "website": "https://github.com/Jijinr/Frwdit",
-  "repository": "https://github.com/Jijinr/Frwdit",
+  "scripts": {},
   "env": {
-    "API_ID": {
-      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
-      "value": ""
-    },
-    "BOT_TOKEN": {
-      "description": "Your bot token from @BotFather",
-      "value": ""
-    },
-    "TO_CHANNEL": {
-      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
-      "value": ""
-    },
-    "FROM_CHANNEL": {
-      "description": "enter Channel username Eg:- @abcdefghijk",
-      "value": ""
-    },
-    "OWNER_ID": {
-      "description": "Enter Your Telegram id",
-      "value": ""
-    },
-    "SKIP_NO": {
-      "description": "Enter File Skiping Number",
-      "value": "0"
-    },
-    "CAPTION": {
-      "description": "If you want to add a caption to the forwarded file, enter it here",
-      "required": false
-    },
-    "FILTER_TYPE": {
-      "description": "Type Of filters {document , audio , photo , video , animation , (empty = forward all kind of messages)}",
-      "value": "document"
-    },
-    "SESSION": {
-      "description": "Pyrogram string Seccion https://replit.com/@JijinR/PyroSessionString",
-      "value": ""
-    }
+    "API_HASH": "65d80478882a08380613b43b548c06bf",
+    "API_ID": "13378716",
+    "BOT_TOKEN": "5586101291:AAGkPzFqW9YevXsWx9pfHHlCRx2HYayN9A0",
+    "FILTER_TYPE": "document",
+    "FROM_CHANNEL": "-1001745929987",
+    "OWNER_ID": "831054990",
+    "SESSION": "AQBqR3ZKdwaEkDFVuoEm1A8sbbspqc1il0lKSTxiSZTdBBERmJt-iJGz4dUkVlb7HQF7P7WEPu2pybkSRdF_z97gqQBKlTqv8_GKA9Gk5W9GsH9oVVGw5N4_Ak7rNDdnNJF-PyV_dD-kOunry1nKACheLQbJrh-tZHinxG4UGVgY4EHKZqIEX-CfKK8ngY2C8d9eHDVJpy2VT-PPISE1D_4n-PSpS0UdLRdbPJL6xjUz44_qcCmZ_cTC8tjrPg-dkoFlHjsz41sSMJ0RCIuSiAv9ol_U2ZBmIYWzAawSWtxSKLXKw1Fw3kHMnX3ApeJ13awyO1ni-yGQoYCZS7BReE9SAAAAAS6YCwwA",
+    "SKIP_NO": "784",
+    "TO_CHANNEL": "-1001830497665"
   },
   "formation": {
     "worker": {
-      "quantity": 1,
-      "size": "free"
+      "quantity": 1
     }
-  }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-22"
 }
